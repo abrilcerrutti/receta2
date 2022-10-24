@@ -1,0 +1,41 @@
+html {
+    width: 60em;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+strong {
+    color: #CBA2FF;
+}
+
+span {
+  background-color: #CBA2FF;
+}
+ul:empty {
+    padding: 15px;
+
+}
+li{
+
+ list-style-type: circle;
+}
+
+li:first-of-type + li {
+  color: #913AFF;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0 30px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+h1 {
+  text-decoration: purple wavy underline;
+  font-weight: bold;
+}
+
+.sub {
+  background: #CBA2FF;
+}
